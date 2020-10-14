@@ -1,0 +1,32 @@
+.Agenda{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid red;
+  overflow: hidden;
+}
+.Title{
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 0px 50px;
+ }
+
+ .Day1{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 50px;
+}
+
+.Day2{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 50px;
+}
+
+.Day3{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 50px;
+}
