@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import Home from './Home'
 import { Switch, HashRouter as Router, Route } from 'react-router-dom'
 import Day from './Day'
+import AgendaBg from './image/Asset 1.svg';
+
 function App() {
   return (
     <Router>
