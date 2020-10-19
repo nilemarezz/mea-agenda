@@ -1,30 +1,27 @@
 import React from 'react';
-import "./Home.css";
-import { Link } from "react-router-dom"
+import "./App.css";
+import { withRouter } from "react-router-dom"
 
-const Home = () => {
+const Home = (props) => {
+  const getDetail = (value) => {
+    props.history.push(`${value}`)
+  }
   return (
-    <div className="Agenda">
-      <div className="Title">
-        <h1>Agenda</h1>
+    <div className="home-container">
+      <div className="grow-button" >
+        <h1 className="title">AGENDA</h1>
       </div>
-      <Link to="/day/1">
-        <div className="Day1">
-          11 พฤศจิกายน 2563
+      <div className="grow-button" onClick={() => getDetail("/day/1")}>
+        <h1 className="date-button">11 พฤษจิกายน 2563</h1>
       </div>
-      </Link>
-      <Link to="/day/2">
-        <div className="Day2">
-          12 พฤศจิกายน 2563
+      <div className="grow-button" onClick={() => getDetail("/day/2")}>
+        <h1 className="date-button">12 พฤษจิกายน 2563</h1>
       </div>
-      </Link>
-      <Link to="/day/3">
-        <div className="Day3">
-          13 พฤศจิกายน 2563
+      <div className="grow-button" onClick={() => getDetail("/day/3")}>
+        <h1 className="date-button">13 พฤษจิกายน 2563</h1>
       </div>
-      </Link>
     </div>
   )
 }
 
-export default Home
+export default withRouter(Home)
