@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <img src={Header} alt="bg" style={{ position: 'fixed', width: '60vh' }} />
-      <img src={Bg} alt="bg" style={{ position: 'fixed', width: '75vh', marginTop: '4vh', zIndex: 2 }} />
+      <img src={Bg} alt="bg" style={{ position: 'fixed', width: '75vh', zIndex: 2, marginTop: '4vh' }} />
       <Router>
         <Route path="/" component={Home} exact strict />
         <Route path="/day/:id" component={DayContainer} exact strict />
