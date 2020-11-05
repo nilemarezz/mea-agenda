@@ -105,7 +105,7 @@ const Day1 = (props) => {
           <li><Context content="รางวัลสำหรับผู้โชคดีที่รับชมทางออนไลน" size="small" /></li>
         </ul>
         <div style={{ height: 5 }}></div>
-        <Context content="เสร็จสิ้นพิธีการ" color='#f37021' />
+        <Context content="เสร็จสิ้นพิธีการ" />
 
 
 
