@@ -2,8 +2,8 @@
 .title{
   color: #f37021; 
   font-size: 120px;
-  padding: 0px 150px;
-  line-height: 0.3;
+  padding: 0px 100px;
+  line-height: 0;
  }
  .date-button{
   color: #f37021; 
@@ -35,14 +35,12 @@
 
 .day-container{
   height: 55vh;
-  width: 50vh; 
+  width:70vh; 
   z-index: 5;
   position: fixed; 
-  margin-left: 3.5vh; 
   margin-top: 22vh;
   display: flex; 
   justify-content: space-between;
-  background-color: white;
 }
 
 .day-grow{
