@@ -26,6 +26,7 @@
     "electron-build:window": "electron-builder --win",
     "electron-build:mac": "electron-builder --mac",
     "release": "yarn react-build && electron-builder --publish=always",
+    "build:web": "react-scripts build",
     "build:window": "yarn react-build && yarn electron-build:window",
     "build:mac": "yarn react-build && yarn electron-build:mac",
     "start:electron": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\"",
