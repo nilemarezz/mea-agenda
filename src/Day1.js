@@ -31,11 +31,11 @@ const Day1 = (props) => {
         <Context content="08.20 – 08.30 น." />
         <Context content="&nbsp;&nbsp;" />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 1 }}></div>
-        <Context content="08.30 – 08.345น." />
+        <div style={{ height: 5 }}></div>
+        <Context content="08.30 – 08.45 น." />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 1 }}></div>
-        <Context content="08.45 - 08.55" />
+        <div style={{ height: 5 }}></div>
+        <Context content="08.45 - 08.55 น." />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ marginLeft: 15 }}>
           <Context content="&nbsp;&nbsp;" />
@@ -54,8 +54,8 @@ const Day1 = (props) => {
         <div style={{ height: 1 }}></div>
         <Context content="09.25 - 09.45 น." />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 1 }}></div>
-        <Context content="09.45 - 10.10 น." />
+        <div style={{ height: 5 }}></div>
+        <Context content="09.50 - 10.10 น." />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 1 }}></div>
         <Context content="10.10 - 10.25 น." />
@@ -73,7 +73,7 @@ const Day1 = (props) => {
         <Context content="CHANGE SHARE & CHALLENG MEA สร้างคุณค่าที่แตกต่าง" color='#f37021' />
         <Context content="โดยคุณกีรพัฒน์ เจียมเศรษฐ์ ผู้ว่าการการไฟฟ้านครหลวง" />
         <div style={{ height: 5 }}></div>
-        <Context content="สุนทรพจน์ใน หัวข้อ “MEA Now & Our Sustainable Value" color='#f37021' />
+        <Context content='สุนทรพจน์ใน หัวข้อ "MEA Now & Our Sustainable Value"' color='#f37021' />
         <Context content="โดยคุณกีรพัฒน์ เจียมเศรษฐ์ ผู้ว่าการการไฟฟ้านครหลวง" />
         <div style={{ height: 5 }}></div>
         <Context content="การแข่งขัน MEA KM-Kaizen Show 2020 รอบตัดสิน" color='#f37021' />
@@ -103,7 +103,7 @@ const Day1 = (props) => {
         <Context content="พักรับประทานอาหารว่าง" />
         <div style={{ height: 5 }}></div>
         <Context content="ทีมที่ 4 Outrigger Safety guard “เท้าช้างใจดี” " color='#f37021' />
-        <Context content="โดยหน่วยงาน ฝบก." />
+        <Context content="โดยหน่วยงาน ฟขอ." />
         <div style={{ height: 5 }}></div>
         <Context content="ทีมที่ 5 ลดเวลาของกระบวนงานจัดเก็บข้อมูลสถิติอุบัติเหตุ กฟน." color='#f37021' />
         <Context content="โดยหน่วยงาน ฝบก." />

@@ -84,8 +84,8 @@ const Day1 = (props) => {
         <div style={{ height: 5 }}></div>
         <Context content="บทความที่ 2  ระบบประมวลผลหน่วยไฟฟ้าสูญเสียในระบบไฟฟ้า" color='#f37021' />
 
-        <Context content="แรงดันต่ำแบบอัตโนมัต" color='#f37021' />
-        <Context content="  โดย คุณภัทริน กิจเจริญ วิศวกรไฟฟ้า 4 สังกัด ฝวจ" />
+        <Context content="แรงดันต่ำแบบอัตโนมัติ" color='#f37021' />
+        <Context content="  โดย คุณภัทริน กิจเจริญ วิศวกรไฟฟ้า 4 สังกัด ฝวจ." />
         <div style={{ height: 5 }}></div>
 
         <div style={{ height: 5 }}></div>

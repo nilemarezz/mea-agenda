@@ -33,9 +33,9 @@ const Day1 = (props) => {
         <Context content="&nbsp;&nbsp;" />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
-        <Context content="11.45 – 12.00น." />
+        <Context content="11.45 – 12.00 น." />
         <div style={{ height: 5 }}></div>
-        <Context content="12.00 - 13.00" />
+        <Context content="12.00 - 13.00 น." />
         <div style={{ height: 5 }}></div>
         <Context content="13.00 - 13.10 น." />
         <Context content="&nbsp;&nbsp;" />
@@ -85,21 +85,21 @@ const Day1 = (props) => {
           <Context content="คุณนพวรรณ เสือสวัสดิ์" color='purple' />
         </div>
         <div style={{ height: 5 }}></div>
-        <Context content="การแข่งขันตอบคำถามทักษะด้านช่าง รอบคัดเลือกสาย A" color='#f37021' />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย A </p>
         <div style={{ height: 5 }}></div>
-        <Context content="การแข่งขันตอบคำถามทักษะด้านช่าง รอบคัดเลือกสาย B" color='#f37021' />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย B </p>
         <div style={{ height: 5 }}></div>
-        <Context content="การแข่งขันตอบคำถามทักษะด้านช่าง รอบคัดเลือกสาย C" color='#f37021' />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย C </p>
         <div style={{ height: 5 }}></div>
-        <Context content="การแข่งขันตอบคำถามทักษะด้านช่าง รอบคัดเลือกสาย D" color='#f37021' />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย D </p>
         <div style={{ height: 5 }}></div>
         <Context content="โหวตทีมโดนใจ" color='#f37021' />
         <div style={{ height: 5 }}></div>
-        <Context content="การแข่งขันตอบคำถามทักษะด้านช่าง รอบชิงชนะเลิศ" color='#f37021' />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบชิงชนะเลิศ </p>
         <div style={{ height: 5 }}></div>
         <Context content="ประกาศผล และมอบรางวัล การแข่งขันตอบคำถามทักษะด้านช่าง" color='#f37021' />
         <div style={{ height: 5 }}></div>
-        <Context content="MEA Lucky Draw จำนวน 2 รางวัล" color='#f37021' />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>MEA Lucky Draw </span>จำนวน  <span style={{ color: '#f37021' }}>2</span> รางวัล</p>
         <ul>
           <li><Context content="รางวัลสำหรับผู้โชคดีที่อยู่ภายในงาน" size="small" /></li>
           <li><Context content="รางวัลสำหรับผู้โชคดีที่รับชมทางออนไลน" size="small" /></li>

@@ -28,6 +28,7 @@ const Day1 = (props) => {
       <div style={{ position: 'fixed', marginTop: '25vh', marginLeft: '2.7vh' }}>
         <Context content="07.30 – 08.20 น." />
         <div style={{ height: 5 }}></div>
+        <Context content="08.20 – 08.30 น." />
         <div style={{ marginLeft: 15 }}>
           <Context content="&nbsp;&nbsp;" />
           <Context content="&nbsp;&nbsp;" />
@@ -41,8 +42,8 @@ const Day1 = (props) => {
         </div>
         <Context content="&nbsp;&nbsp;" />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 15 }}></div>
-        <Context content="08.30 - 09.50 น." />
+        <div style={{ height: 10 }}></div>
+        <Context content="08.30 - 08.50 น." />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
         <Context content="08.50 - 09.10 น." />

@@ -29,42 +29,42 @@ const Day1 = (props) => {
         <Context content="&nbsp;&nbsp;" />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
-        <Context content="08.20 – 08.30 น." />
+        <Context content="11.40– 12.00 น." />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
-        <Context content="08.30 – 08.345น." />
+        <Context content="12.00 – 13.00 น." />
         <div style={{ height: 5 }}></div>
-        <Context content="08.45 - 08.55" />
+        <Context content="13.00 - 13.20 น." />
         <Context content="&nbsp;&nbsp;" />
         <Context content="&nbsp;&nbsp;" />
-        <Context content="09.00 - 09.20 น." />
+        <Context content="13.25 - 13.45 น." />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
-        <Context content="09.25 - 09.45 น." />
+        <Context content="13.50 - 14.10 น." />
         <Context content="&nbsp;&nbsp;" />
         <Context content="&nbsp;&nbsp;" />
 
         <div style={{ height: 5 }}></div>
-        <Context content="09.45 - 10.10 น." />
+        <Context content="14.10 - 14.25 น." />
         <div style={{ height: 5 }}></div>
-        <Context content="10.10 - 10.25 น." />
+        <Context content="14.25 - 14.45 น." />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
-        <Context content="10.25 - 10.45 น." />
+        <Context content="14.50 - 15.10 น." />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
-        <Context content="10.50 - 11.10 น." />
+        <Context content="15.15 - 15.25 น." />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
-        <Context content="10.50 - 11.10 น." />
+        <Context content="15.25 - 15.30 น." />
         <Context content="&nbsp;&nbsp;" />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
-        <Context content="10.50 - 11.10 น." />
+        <Context content="15.30 น." />
         <Context content="&nbsp;&nbsp;" />
       </div>
       <div style={{ position: 'fixed', marginLeft: '19vh', marginTop: '25vh' }}>
-        <Context content="ทีมที่ 6 ลดระยะเวลาการจัดทำบันทึกขออนุมัติขยายสัญ" color='#f37021' />
+        <Context content="ทีมที่ 6 ลดระยะเวลาการจัดทำบันทึกขออนุมัติขยายสัญญา" color='#f37021' />
         <Context content="การงด/ลดค่าปรับ" color='#f37021' />
         <Context content="โดยหน่วยงาน ฝจห." />
         <div style={{ height: 5 }}></div>
@@ -96,7 +96,7 @@ const Day1 = (props) => {
         <Context content="การแข่งขัน MEA KM-Kaizen Show 2020" color='#f37021' />
 
         <div style={{ height: 5 }}></div>
-        <Context content="MEA Lucky Draw จำนวน 2 รางวัล" color='#f37021' />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>MEA Lucky Draw </span>จำนวน  <span style={{ color: '#f37021' }}>2</span> รางวัล</p>
         <ul>
           <li><Context content="รางวัลสำหรับผู้โชคดีที่อยู่ภายในงาน" size="small" /></li>
           <li><Context content="รางวัลสำหรับผู้โชคดีที่รับชมทางออนไลน" size="small" /></li>
