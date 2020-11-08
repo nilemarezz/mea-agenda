@@ -86,19 +86,19 @@ const Day1 = (props) => {
         <Context content="การแข่งขันตอบคำถามทักษะด้านสำนักงาน" color='#f37021' />
         <Context content="พิธีกรชี้แจงกติกา และแนะนำกรรมการ" color='#f37021' />
         <div style={{ height: 3 }}></div>
-        <Context content="การแข่งขันตอบคำถามทักษะด้านสำนักงาน รอบคัดเลือกสาย A" />
-        <Context content="การแข่งขันตอบคำถามทักษะด้านสำนักงาน รอบคัดเลือกสาย B" />
-        <Context content="การแข่งขันตอบคำถามทักษะด้านสำนักงาน รอบคัดเลือกสาย C" />
-        <Context content="การแข่งขันตอบคำถามทักษะด้านสำนักงาน รอบคัดเลือกสาย D" />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย A </p>
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย B </p>
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย C </p>
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย D </p>
         <div style={{ height: 3 }}></div>
         <Context content="โหวตทีมโดนใจ " color='#f37021' />
         <div style={{ height: 3 }}></div>
-        <Context content="การแข่งขันตอบคำถามทักษะด้านสำนักงาน รอบชิงชนะเลิศ" color='#f37021' />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบชิงชนะเลิศ </p>
         <div style={{ height: 3 }}></div>
         <Context content="ประกาศผล และมอบรางวัล" color='#f37021' />
         <Context content="การแข่งขัน ตอบคำถามทักษะด้านสำนักงาน" color='#f37021' />
         <div style={{ height: 3 }}></div>
-        <Context content="MEA Lucky Draw จำนวน 2 รางวัล" />
+        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>MEA Lucky Draw </span>จำนวน  <span style={{ color: '#f37021' }}>2</span> รางวัล</p>
 
         <ul>
           <li><Context content="รางวัลสำหรับผู้โชคดีที่อยู่ภายในงาน" size="small" /></li>
