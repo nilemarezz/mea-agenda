@@ -19,9 +19,9 @@ const Day1 = (props) => {
       <img src={process.env.PUBLIC_URL + '/image/next.svg'} style={{ width: '6vh', position: 'fixed', marginTop: '14.7vh', zIndex: 10, marginLeft: '48vh' }} onClick={() => props.history.push('/day/1-2')} />
       <div style={{ backgroundColor: '#f37021', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: '18vh', position: 'fixed', width: '100%' }}>
         <div className="day-grow" style={{ margin: '0px 20px 0px 20px' }} >
-          <h1 style={{ lineHeight: 0, fontSize: 45, color: '#f37021' }}>AGENDA</h1>
+          <h1 style={{ lineHeight: 0, fontSize: 30, color: '#f37021' }}>AGENDA</h1>
         </div>
-        <h1 style={{ color: 'white', fontSize: 45, marginRight: 20 }}>{getData(props.match.params.id)}</h1>
+        <h1 style={{ color: 'white', fontSize: 30, marginRight: 20 }}>{getData(props.match.params.id)}</h1>
       </div>
 
       <img src={process.env.PUBLIC_URL + '/image/content.svg'} style={{ marginTop: '20vh', width: '2vh', marginLeft: '15vh', position: 'fixed' }} />
@@ -31,10 +31,10 @@ const Day1 = (props) => {
         <Context content="08.20 – 08.30 น." />
         <Context content="&nbsp;&nbsp;" />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="08.30 – 08.345น." />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="08.45 - 08.55" />
         <Context content="&nbsp;&nbsp;" />
         <div style={{ marginLeft: 15 }}>
@@ -51,18 +51,18 @@ const Day1 = (props) => {
         <div style={{ height: 18 }}></div>
         <Context content="09.00 - 09.20 น." />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="09.25 - 09.45 น." />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="09.45 - 10.10 น." />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="10.10 - 10.25 น." />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="10.25 - 10.45 น." />
         <Context content="&nbsp;&nbsp;" />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="10.50 - 11.10 น." />
         <Context content="&nbsp;&nbsp;" />
       </div>
