@@ -15,13 +15,19 @@ const Day1 = (props) => {
 
     <div >
       <img src={process.env.PUBLIC_URL + '/image/header.svg'} alt="bg" style={{ position: 'fixed', width: '60vh' }} />
-      <img src={process.env.PUBLIC_URL + '/image/back.svg'} style={{ width: '6vh', position: 'fixed', marginTop: '14.7vh', zIndex: 10, marginLeft: '2vh' }} onClick={() => props.history.push('/')} />
-      <img src={process.env.PUBLIC_URL + '/image/next.svg'} style={{ width: '6vh', position: 'fixed', marginTop: '14.7vh', zIndex: 10, marginLeft: '48vh' }} onClick={() => props.history.push('/day/3-2')} />
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '12.7vh', position: 'fixed', zIndex: 10, marginLeft: '2vh' }} onClick={() => props.history.push('/')}>
+        <img src={process.env.PUBLIC_URL + '/image/arrow-left.svg'} style={{ width: '1.5vh', marginRight: 10 }} />
+        <p style={{ fontSize: 25 }}><strong>BACK</strong></p>
+      </div >
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '12.7vh', position: 'fixed', zIndex: 10, marginLeft: '49vh' }} onClick={() => props.history.push('/day/3-2')}>
+        <p style={{ fontSize: 25 }}><strong>NEXT</strong></p>
+        <img src={process.env.PUBLIC_URL + '/image/arrow-right.svg'} style={{ width: '1.5vh', marginLeft: 10 }} />
+      </div >
       <div style={{ backgroundColor: '#f37021', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: '18vh', position: 'fixed', width: '100%' }}>
         <div className="day-grow" style={{ margin: '0px 20px 0px 20px' }} >
-          <h1 style={{ lineHeight: 0, fontSize: 45, color: '#f37021' }}>AGENDA</h1>
+          <h1 style={{ lineHeight: 0, fontSize: 30, color: '#f37021' }}>AGENDA</h1>
         </div>
-        <h1 style={{ color: 'white', fontSize: 45, marginRight: 20 }}>{getData(props.match.params.id)}</h1>
+        <h1 style={{ color: 'white', fontSize: 30, marginRight: 20 }}>{getData(props.match.params.id)}</h1>
       </div>
 
       <img src={process.env.PUBLIC_URL + '/image/content.svg'} style={{ marginTop: '20vh', width: '2vh', marginLeft: '15vh', position: 'fixed' }} />
@@ -69,9 +75,9 @@ const Day1 = (props) => {
         <Context content="การนำเสนอบทความทางวิชาการของ กฟน. ประจำปีการศึกษา 2563" color='#f37021' />
         <Context content="พิธีกรกล่าวต้อนรับ และแนะนำ Session Chair" color='#f37021' />
         <div style={{ marginLeft: 15 }}>
-          <Context content="คุณไชยวัฒน์ อภิธนวิทย" color='purple' />
+          <Context content="คุณไชยวัฒน์ อภิธนวิทย์" color='purple' />
           <Context content="นบ.8 หัวหน้าแผนก สังกัด ฝคฟ." size="small" />
-          <Context content="คุณกังวาน เจริญครบุร" color='purple' />
+          <Context content="คุณกังวาน เจริญครบุรี" color='purple' />
           <Context content="วิศวกรไฟฟ้า 8 สังกัด ฝวฟ." size="small" />
           <Context content="คุณสปิตา จิตตสินนวา" color='purple' />
           <Context content="นักประมวลผลข้อมูล 8 ฝคฐ." size="small" />
@@ -79,13 +85,13 @@ const Day1 = (props) => {
         <div style={{ height: 5 }}></div>
         <Context content="บทความที่ 1  การออกแบบติดตั้งระบบพลังงานแสงอาทิตย์" color='#f37021' />
         <Context content="บนหลังคา และการวิเคราะห์ความเป็นไปได้สำหรับการลงทุน" color='#f37021' />
-        <Context content="โดย คุณณัฐพงษ์ บุญราช วิศวกรไฟฟ้า 4 สัง กัด ฝธค." />
+        <Context content="โดย คุณณัฐพงษ์ บุญราช วิศวกรไฟฟ้า 4 สังกัด ฝธค." />
 
         <div style={{ height: 5 }}></div>
         <Context content="บทความที่ 2  ระบบประมวลผลหน่วยไฟฟ้าสูญเสียในระบบไฟฟ้า" color='#f37021' />
 
         <Context content="แรงดันต่ำแบบอัตโนมัติ" color='#f37021' />
-        <Context content="  โดย คุณภัทริน กิจเจริญ วิศวกรไฟฟ้า 4 สังกัด ฝวจ." />
+        <Context content=" โดย คุณภัทริน กิจเจริญ วิศวกรไฟฟ้า 4 สังกัด ฝวจ." />
         <div style={{ height: 5 }}></div>
 
         <div style={{ height: 5 }}></div>
@@ -107,8 +113,6 @@ const Day1 = (props) => {
         <Context content="เพื่อประยุกต์ใช้งานในพื้นที่ของการไฟฟ้านครหลวง" color='#f37021' />
         <Context content="โดย คุณภัทริน กิจเจริญ วิศวกรไฟฟ้า 4 สังกัด ฝวจ." />
 
-
-        {/* ทีมที่ 2 แจ้งเหตุเตือนไว  พร้อมใช้ระบบสื่อสาร (Line Notify) */}
 
 
       </div>

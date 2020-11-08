@@ -15,9 +15,16 @@ const Day1 = (props) => {
 
     <div >
       <img src={process.env.PUBLIC_URL + '/image/header.svg'} alt="bg" style={{ position: 'fixed', width: '60vh' }} />
-      <img src={process.env.PUBLIC_URL + '/image/back.svg'} style={{ width: '6vh', position: 'fixed', marginTop: '14.7vh', zIndex: 10, marginLeft: '2vh' }} onClick={() => props.history.push('/')} />
-      <img src={process.env.PUBLIC_URL + '/image/next.svg'} style={{ width: '6vh', position: 'fixed', marginTop: '14.7vh', zIndex: 10, marginLeft: '48vh' }} onClick={() => props.history.push('/day/1-2')} />
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '12.7vh', position: 'fixed', zIndex: 10, marginLeft: '2vh' }} onClick={() => props.history.push('/')}>
+        <img src={process.env.PUBLIC_URL + '/image/arrow-left.svg'} style={{ width: '1.5vh', marginRight: 10 }} />
+        <p style={{ fontSize: 25 }}><strong>BACK</strong></p>
+      </div >
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '12.7vh', position: 'fixed', zIndex: 10, marginLeft: '49vh' }} onClick={() => props.history.push('/day/1-2')}>
+        <p style={{ fontSize: 25 }}><strong>NEXT</strong></p>
+        <img src={process.env.PUBLIC_URL + '/image/arrow-right.svg'} style={{ width: '1.5vh', marginLeft: 10 }} />
+      </div >
       <div style={{ backgroundColor: '#f37021', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: '18vh', position: 'fixed', width: '100%' }}>
+
         <div className="day-grow" style={{ margin: '0px 20px 0px 20px' }} >
           <h1 style={{ lineHeight: 0, fontSize: 30, color: '#f37021' }}>AGENDA</h1>
         </div>
@@ -79,7 +86,7 @@ const Day1 = (props) => {
         <Context content="การแข่งขัน MEA KM-Kaizen Show 2020 รอบตัดสิน" color='#f37021' />
         <Context content="พิธีกรแจ้งกติกา และแนะนำกรรมการ" color='#f37021' />
         <div style={{ marginLeft: 15 }}>
-          <Context content="อ.สุพัฒน์ เอื้องพูลสวัสด" color='purple' />
+          <Context content="อ.สุพัฒน์ เอื้องพูลสวัสดิ์" color='purple' />
           <Context content="รองประธานพิจารณารางวัล  Thailand Kaizen Award  และวิทยากรที่ปรึกษาอิสระ" size="small" />
           <Context content="ทางด้าน  Total Productive Management (TPM) และ Process Improvement" size="small" />
           <Context content="อ.ยุทธพงษ์ ศุภกร" color='purple' />
@@ -106,7 +113,7 @@ const Day1 = (props) => {
         <Context content="โดยหน่วยงาน ฟขอ." />
         <div style={{ height: 5 }}></div>
         <Context content="ทีมที่ 5 ลดเวลาของกระบวนงานจัดเก็บข้อมูลสถิติอุบัติเหตุ กฟน." color='#f37021' />
-        <Context content="โดยหน่วยงาน ฝบก." />
+        <Context content="โดยหน่วยงาน ฝปก." />
 
         {/* ทีมที่ 2 แจ้งเหตุเตือนไว  พร้อมใช้ระบบสื่อสาร (Line Notify) */}
 
@@ -115,7 +122,7 @@ const Day1 = (props) => {
       <div style={{ height: 30, width: '100%', backgroundColor: "#f37021", position: 'fixed', bottom: 0 }}></div>
 
 
-    </div>
+    </div >
   )
 }
 

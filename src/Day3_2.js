@@ -15,12 +15,15 @@ const Day1 = (props) => {
 
     <div >
       <img src={process.env.PUBLIC_URL + '/image/header.svg'} alt="bg" style={{ position: 'fixed', width: '60vh' }} />
-      <img src={process.env.PUBLIC_URL + '/image/back.svg'} style={{ width: '6vh', position: 'fixed', marginTop: '14.7vh', zIndex: 10, marginLeft: '2vh' }} onClick={() => props.history.push('/day/3')} />
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '12.7vh', position: 'fixed', zIndex: 10, marginLeft: '2vh' }} onClick={() => props.history.push('/day/3')}>
+        <img src={process.env.PUBLIC_URL + '/image/arrow-left.svg'} style={{ width: '1.5vh', marginRight: 10 }} />
+        <p style={{ fontSize: 25 }}><strong>BACK</strong></p>
+      </div >
       <div style={{ backgroundColor: '#f37021', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: '18vh', position: 'fixed', width: '100%' }}>
         <div className="day-grow" style={{ margin: '0px 20px 0px 20px' }} >
-          <h1 style={{ lineHeight: 0, fontSize: 45, color: '#f37021' }}>AGENDA</h1>
+          <h1 style={{ lineHeight: 0, fontSize: 30, color: '#f37021' }}>AGENDA</h1>
         </div>
-        <h1 style={{ color: 'white', fontSize: 45, marginRight: 20 }}>{getData(props.match.params.id)}</h1>
+        <h1 style={{ color: 'white', fontSize: 30, marginRight: 20 }}>{getData(props.match.params.id)}</h1>
       </div>
 
       <img src={process.env.PUBLIC_URL + '/image/content.svg'} style={{ marginTop: '20vh', width: '2vh', marginLeft: '15vh', position: 'fixed' }} />
@@ -70,7 +73,7 @@ const Day1 = (props) => {
         <Context content="โดย คุณศุภเชษฐ์ เนียมโสภา" />
         <Context content="ผู้ช่วยผู้อำนวยการกองระบบสื่อสาร สังกัด ฝคฐ." />
         <div style={{ height: 3 }}></div>
-        <Context content="บทความที่ 8 บริการเครือข่ายอินเทอร์เน็ตพื้นฐานและบริการที่รองรัย" color='#f37021' />
+        <Context content="บทความที่ 8 บริการเครือข่ายอินเทอร์เน็ตพื้นฐานและบริการที่รองรับ" color='#f37021' />
         <Context content="IPv6 ของการไฟฟ้านครหลวง" color='#f37021' />
         <Context content="โดย คุณธวัชชัย มัทนัง นักประมวลผลข้อมูล 6 สังกัด ฝคฐ." />
         <div style={{ height: 3 }}></div>
@@ -86,19 +89,19 @@ const Day1 = (props) => {
         <Context content="การแข่งขันตอบคำถามทักษะด้านสำนักงาน" color='#f37021' />
         <Context content="พิธีกรชี้แจงกติกา และแนะนำกรรมการ" color='#f37021' />
         <div style={{ height: 3 }}></div>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย A </p>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย B </p>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย C </p>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย D </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย A </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย B </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย C </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบคัดเลือกสาย D </p>
         <div style={{ height: 3 }}></div>
         <Context content="โหวตทีมโดนใจ " color='#f37021' />
         <div style={{ height: 3 }}></div>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบชิงชนะเลิศ </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านสำนักงาน</span> รอบชิงชนะเลิศ </p>
         <div style={{ height: 3 }}></div>
         <Context content="ประกาศผล และมอบรางวัล" color='#f37021' />
         <Context content="การแข่งขัน ตอบคำถามทักษะด้านสำนักงาน" color='#f37021' />
         <div style={{ height: 3 }}></div>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>MEA Lucky Draw </span>จำนวน  <span style={{ color: '#f37021' }}>2</span> รางวัล</p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>MEA Lucky Draw </span>จำนวน  <span style={{ color: '#f37021' }}>2</span> รางวัล</p>
 
         <ul>
           <li><Context content="รางวัลสำหรับผู้โชคดีที่อยู่ภายในงาน" size="small" /></li>
@@ -107,7 +110,6 @@ const Day1 = (props) => {
 
         <div style={{ height: 4 }}></div>
         <Context content="เสร็จสิ้นพิธีการ" />
-        {/* ทีมที่ 2 แจ้งเหตุเตือนไว  พร้อมใช้ระบบสื่อสาร (Line Notify) */}
 
 
       </div>

@@ -15,12 +15,15 @@ const Day1 = (props) => {
 
     <div >
       <img src={process.env.PUBLIC_URL + '/image/header.svg'} alt="bg" style={{ position: 'fixed', width: '60vh' }} />
-      <img src={process.env.PUBLIC_URL + '/image/back.svg'} style={{ width: '6vh', position: 'fixed', marginTop: '14.7vh', zIndex: 10, marginLeft: '2vh' }} onClick={() => props.history.push('/day/2')} />
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '12.7vh', position: 'fixed', zIndex: 10, marginLeft: '2vh' }} onClick={() => props.history.push('/day/2')}>
+        <img src={process.env.PUBLIC_URL + '/image/arrow-left.svg'} style={{ width: '1.5vh', marginRight: 10 }} />
+        <p style={{ fontSize: 25 }}><strong>BACK</strong></p>
+      </div >
       <div style={{ backgroundColor: '#f37021', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: '18vh', position: 'fixed', width: '100%' }}>
         <div className="day-grow" style={{ margin: '0px 20px 0px 20px' }} >
-          <h1 style={{ lineHeight: 0, fontSize: 45, color: '#f37021' }}>AGENDA</h1>
+          <h1 style={{ lineHeight: 0, fontSize: 30, color: '#f37021' }}>AGENDA</h1>
         </div>
-        <h1 style={{ color: 'white', fontSize: 45, marginRight: 20 }}>{getData(props.match.params.id)}</h1>
+        <h1 style={{ color: 'white', fontSize: 30, marginRight: 20 }}>{getData(props.match.params.id)}</h1>
       </div>
 
       <img src={process.env.PUBLIC_URL + '/image/content.svg'} style={{ marginTop: '20vh', width: '2vh', marginLeft: '15vh', position: 'fixed' }} />
@@ -34,9 +37,9 @@ const Day1 = (props) => {
         <Context content="&nbsp;&nbsp;" />
         <div style={{ height: 5 }}></div>
         <Context content="11.45 – 12.00 น." />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="12.00 - 13.00 น." />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="13.00 - 13.10 น." />
         <Context content="&nbsp;&nbsp;" />
         <Context content="&nbsp;&nbsp;" />
@@ -73,9 +76,9 @@ const Day1 = (props) => {
         <Context content="โดยหน่วยงาน ฝบร." />
         <div style={{ height: 5 }}></div>
         <Context content="ประกาศ และมอบรางวัล Safety Kaizen Show 2020" color='#f37021' />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="พักรับประทานอาหารกลางวัน" />
-        <div style={{ height: 5 }}></div>
+        <div style={{ height: 1 }}></div>
         <Context content="การแข่งขันตอบคำถามทักษะด้านช่าง" color='#f37021' />
         <Context content="พิธีกรชี้แจงกติกา และแนะนำกรรรมการ" color='#f37021' />
         <div style={{ marginLeft: 15 }}>
@@ -85,21 +88,21 @@ const Day1 = (props) => {
           <Context content="คุณนพวรรณ เสือสวัสดิ์" color='purple' />
         </div>
         <div style={{ height: 5 }}></div>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย A </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย A </p>
         <div style={{ height: 5 }}></div>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย B </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย B </p>
         <div style={{ height: 5 }}></div>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย C </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย C </p>
         <div style={{ height: 5 }}></div>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย D </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบคัดเลือกสาย D </p>
         <div style={{ height: 5 }}></div>
         <Context content="โหวตทีมโดนใจ" color='#f37021' />
         <div style={{ height: 5 }}></div>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบชิงชนะเลิศ </p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>การแข่งขันตอบคำถามทักษะด้านช่าง</span> รอบชิงชนะเลิศ </p>
         <div style={{ height: 5 }}></div>
         <Context content="ประกาศผล และมอบรางวัล การแข่งขันตอบคำถามทักษะด้านช่าง" color='#f37021' />
         <div style={{ height: 5 }}></div>
-        <p style={{ fontSize: 35, lineHeight: 0 }}><span style={{ color: '#f37021' }}>MEA Lucky Draw </span>จำนวน  <span style={{ color: '#f37021' }}>2</span> รางวัล</p>
+        <p style={{ fontSize: 23, lineHeight: 0 }}><span style={{ color: '#f37021' }}>MEA Lucky Draw </span>จำนวน  <span style={{ color: '#f37021' }}>2</span> รางวัล</p>
         <ul>
           <li><Context content="รางวัลสำหรับผู้โชคดีที่อยู่ภายในงาน" size="small" /></li>
           <li><Context content="รางวัลสำหรับผู้โชคดีที่รับชมทางออนไลน" size="small" /></li>
@@ -109,8 +112,6 @@ const Day1 = (props) => {
 
 
 
-
-        {/* ทีมที่ 2 แจ้งเหตุเตือนไว  พร้อมใช้ระบบสื่อสาร (Line Notify) */}
 
 
       </div>
