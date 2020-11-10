@@ -15,13 +15,13 @@ const Home = (props) => {
           <h1 className="title">AGENDA</h1>
         </div>
         <div className="grow-button" onClick={() => getDetail("/day/1")}>
-          <h1 className="date-button">11 พฤษจิกายน 2563</h1>
+          <h1 className="date-button">11 พฤศจิกายน 2563</h1>
         </div>
         <div className="grow-button" onClick={() => getDetail("/day/2")}>
-          <h1 className="date-button">12 พฤษจิกายน 2563</h1>
+          <h1 className="date-button">12 พฤศจิกายน 2563</h1>
         </div>
         <div className="grow-button" onClick={() => getDetail("/day/3")}>
-          <h1 className="date-button">13 พฤษจิกายน 2563</h1>
+          <h1 className="date-button">13 พฤศจิกายน 2563</h1>
         </div>
       </div>
       <img src={process.env.PUBLIC_URL + '/image/footer.svg'} alt="bg" style={{ position: 'fixed', width: '79vh', bottom: 0 }} />
